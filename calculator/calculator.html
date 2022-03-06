@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Calculator</title>
+<script type = "text/javascript" src = "script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<form name="cal">
+<div class="container"> 
+  <div class="row-0">
+    <h1>Calculator</h1>
+	<hr>
+  </div>
+  <div class="row-1"> 
+    <input type="text" class="n1" name="n1"> 
+  </div>
+  
+  <div class="row-2"> 
+    <div class="add">
+      <input type="button" class="addbtn" value="+" name="add" onclick="addbtn();">
+    </div>  
+	
+	<div class="sub">
+	  <input type="button" class="subbtn" value="-" name="sub" onclick="subbtn();">
+	</div>
+	
+	<div class="mul">
+	  <input type="button" class="mulbtn" value="X" name="mult" onclick="multbtn();">
+	</div>
+	
+	<div class="div">
+	  <input type="button" class="divbtn" value="/" name="divi" onclick="divbtn();">
+	</div>
+  </div>
+  
+  <div class="row-1">
+    <input type="text" class="n2" name="n2"> 
+  </div>
+  
+  <div class="row-3">
+    <div class="equal">
+      <input type="button" class="equalbtn" value="=" onclick="eq();">
+	</div>	
+	<div class="clear">
+	  <input type="button" class="clearbtn" value="C" onclick="clearbtn();">
+	</div>
+  </div>
+  
+  <div class="row-4">
+    <hr>
+    <h2>Answer</h2>
+  </div>
+  
+  <div class="row-5">
+    <input type="text" class="ans" name="ans"> 
+  </div>
+  
+</div>
+</form>
+</body>
+</html>
